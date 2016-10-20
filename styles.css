@@ -1,3 +1,30 @@
 .blue {
 	color: blue;
 }
+
+.hulkify {
+	font-size: 30px;	
+}
+
+.borderify {
+	border: 3px solid green;
+}
+
+.roundify {
+	border-radius: 15px;
+}
+
+section:first-child {
+	font-style: italic;
+	font-size: 8px;
+	color: green;
+}
+
+section:last-child {
+	font-weight: bold;
+	color: red;
+}
+
+button {
+	display: block;
+}

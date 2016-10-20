@@ -31,8 +31,16 @@ document.getElementById("add-color").addEventListener("click", function(event) {
 
 
 // 6. When you click the "Hulkify" button, the `guinea-pig` element's font size should become much larger.
+document.getElementById("make-large").addEventListener("click", function(event) {
+	document.getElementById("guinea-pig").classList.toggle("hulkify");
+});
+ 
 // 7. When you click the "Capture it" button, the `guinea-pig` element should have a border added to it.
+document.getElementById("add-border").addEventListener("click", function(event) {
+	document.getElementById("guinea-pig").classList.toggle("borderify");
+});
+
 // 8. When you click the "Rounded" button, the `guinea-pig` element's border should become rounded.
-// 9. The first section's text should be bold.
-// 10. The last section's text should be bold and italicized.
-// 11. Make the buttons stop appearing next to each other as inline elements. Change them into block elements.
+document.getElementById("add-rounding").addEventListener("click", function(event) {
+	document.getElementById("guinea-pig").classList.toggle("roundify");
+});
