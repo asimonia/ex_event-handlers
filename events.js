@@ -22,9 +22,14 @@ document.getElementById("keypress-input").addEventListener("keyup", function(eve
 	// when a keyup event is fired, the event object is passed as a parameter
 	// access the value of the key press by selecting the target property and value.
 	document.getElementById("output-target").innerHTML = "<p>" + event.target.value + "</p>";
-});;
+});
 
 // 5. When you click the "Add color" button, the `guinea-pig` element's text color should change to blue.
+document.getElementById("add-color").addEventListener("click", function(event) {
+	document.getElementById("guinea-pig").classList.toggle("blue");
+});
+
+
 // 6. When you click the "Hulkify" button, the `guinea-pig` element's font size should become much larger.
 // 7. When you click the "Capture it" button, the `guinea-pig` element should have a border added to it.
 // 8. When you click the "Rounded" button, the `guinea-pig` element's border should become rounded.
